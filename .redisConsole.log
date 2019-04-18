@@ -1,0 +1,4 @@
+{"id":"3b8kldWAUhj0JNFR","command":"SET","arguments":"animal \"monkey\""}
+{"id":"heC0bqpEZja3cJNw","command":"GET","arguments":"animal"}
+{"id":"mcOGKeXUVPopq7nr","command":"HVALS","arguments":"Song:1"}
+{"id":"b0UY8GXqQhsoMZzv","command":"HVALS","arguments":"Song:2"}

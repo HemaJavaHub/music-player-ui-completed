@@ -1,0 +1,14 @@
+<div class="container">
+  <div>Search by Title</div>
+  <div>
+    <input [(ngModel)]="searchText" name="titleSearch"/>
+  </div>
+  <div>
+    <button (click)="searchByTitle()">Search</button>
+  </div>
+  <div>
+    <ul *ngFor="let song of songResults">
+      <li>{{song.title}} - {{song.artist}}</li>
+    </ul>
+  </div>
+</div>
