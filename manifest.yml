@@ -4,4 +4,4 @@ applications:
     memory: 1024M
     instances: 1
     random-route: true
-    path: dist/music-player-ui/*.*
+    path: dist/music-player-ui/*
