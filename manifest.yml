@@ -1,0 +1,7 @@
+---
+applications:
+  - name: angular-test
+    memory: 1024M
+    instances: 1
+    random-route: true
+    path: dist/music-player-ui/*.*
