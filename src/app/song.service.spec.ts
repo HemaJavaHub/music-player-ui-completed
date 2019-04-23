@@ -40,6 +40,7 @@ describe('SongService', () => {
 
     const req = httpMock.expectOne('/song/title/Africa');
     expect(req.request.method).toBe("GET");
+    req.flush(fakeSongs);
 
   });
 });
